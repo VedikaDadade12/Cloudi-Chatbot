@@ -43,25 +43,4 @@ Cloudi ☁️ is an interactive AI chatbot designed to assist users with **inter
 
 ---
 
-## 📁 Folder Structure
-Vedika_AI_Chatbot/
-├── static/
-│ └── style.css
-├── templates/
-│ ├── admin_login.html
-│ ├── admin_logs.html
-│ ├── chat.html
-│ ├── floating-chat.html
-│ ├── response.html
-│ └── sms_logs.html
-├── app.py
-├── .env # 🔒 Not for sharing
-├── .gitignore
-├── faq_data.json
-├── learning_log.json
-├── sms_logs.json
-├── requirements.txt
-
----
-
 
