@@ -427,10 +427,7 @@ def send_sms(to, message):
     requests.post(url, data=data, auth=(TWILIO_SID, TWILIO_TOKEN))
 
 # ----------- Run App -----------
-
 if __name__ == "__main__":
     from dotenv import load_dotenv
     load_dotenv()
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-
-
